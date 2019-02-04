@@ -2,6 +2,8 @@
 def valid_move?(board, index)
   if(index < 1 || index > 9)
     return false
+  else
+    return true
   end
 end
 
