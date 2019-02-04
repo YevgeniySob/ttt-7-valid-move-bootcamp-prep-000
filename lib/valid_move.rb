@@ -2,7 +2,7 @@
 def valid_move?(board, index)
   if(index < 1 || index > 9)
     return false
-  elsif(board[index] == " ")
+  elsif(board[index] == " " || board[index] == "")
     return true
   end
   
